@@ -34,7 +34,7 @@
         "forms",
         "homeLoanAndCarLoan",
         "Elements",
-        "inptNumberOfYears.json"
+        "inptNumberYears.json"
       ]
     },
     {
@@ -52,7 +52,7 @@
         "forms",
         "homeLoanAndCarLoan",
         "Elements",
-        "lblCarLoan.json"
+        "lblLoanForm.json"
       ]
     },
     {
@@ -70,7 +70,7 @@
         "forms",
         "homeLoanAndCarLoan",
         "Elements",
-        "Button1.json"
+        "btnHomeLoan.json"
       ]
     },
     {
