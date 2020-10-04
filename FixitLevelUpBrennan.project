@@ -23,16 +23,8 @@
           "!type": "External",
           "file": [
             "forms",
-            "homeLoanPayment",
-            "homeLoanPayment.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "carLoanPayment",
-            "carLoanPayment.json"
+            "homeLoanAndCarLoan",
+            "homeLoanAndCarLoan.json"
           ]
         }
       ],
@@ -55,7 +47,7 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
-      "firstform": "homeLoanPayment",
+      "firstform": "homeLoanAndCarLoan",
       "fontFamily": "system",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",

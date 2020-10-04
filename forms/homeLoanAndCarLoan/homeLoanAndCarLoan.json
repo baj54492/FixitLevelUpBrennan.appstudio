@@ -14,45 +14,72 @@
       "!type": "External",
       "file": [
         "forms",
-        "homeLoanPayment",
+        "homeLoanAndCarLoan",
         "Elements",
-        "inptHomePrice.json"
+        "inptPrinciple.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "homeLoanPayment",
+        "homeLoanAndCarLoan",
         "Elements",
-        "inptHomeInterest.json"
+        "inptMonthlyInterest.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "homeLoanPayment",
+        "homeLoanAndCarLoan",
         "Elements",
-        "inptHomePayments.json"
+        "inptNumberOfYears.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "homeLoanPayment",
+        "homeLoanAndCarLoan",
         "Elements",
-        "btnEnter.json"
+        "btncarLoan.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "homeLoanPayment",
+        "homeLoanAndCarLoan",
         "Elements",
-        "lblHomeLoanPayment.json"
+        "lblCarLoan.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homeLoanAndCarLoan",
+        "Elements",
+        "inptNumberofMonths.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homeLoanAndCarLoan",
+        "Elements",
+        "Button1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homeLoanAndCarLoan",
+        "Elements",
+        "lblmessage.json"
       ]
     }
   ],
@@ -62,7 +89,7 @@
   "expanded_pmp": null,
   "fullScreen": "true",
   "height": 460,
-  "id": "homeLoanPayment",
+  "id": "homeLoanAndCarLoan",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
