@@ -17,7 +17,7 @@
   "fontWeight": "",
   "height": "auto",
   "hidden": "",
-  "id": "lblCarLoan",
+  "id": "lblLoanForm",
   "labelStyle": "text",
   "left": 114,
   "mAll": "",
@@ -43,6 +43,6 @@
   "script": "",
   "style": "",
   "top": 11,
-  "value": "Car Loan",
+  "value": "Loan Form",
   "width": "auto"
 }

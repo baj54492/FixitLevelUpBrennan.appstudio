@@ -3,38 +3,40 @@ function carLoanPayment(carLoanPrinciple2, carLoanMonths2, carLoanInterest2) {
   return carPaymentFormula
 }
 
-btncarLoan.onclick=function(){
+function homeLoanPayment(homeLoanPrinciple2, homeLoanYears2, homeLoanInterest2) {
+  let homePaymentFormula = (homeLoanPrinciple2 / homeLoanYears2 * 12) * ((homeLoanInterest2 / 100) + 1)
+  return homePaymentFormula;
+}
 
-let carLoanPrinciple = ""
-let carLoanInterest = ""
-let carLoanMonths = ""
+//Car Loan
+btncarLoan.onclick = function() {
 
-carLoanPrinciple = Number(inptPrinciple.value)
-carLoanInterest= (Number(inptMonthlyInterest.value)) / 100
-console.log(carLoanInterest)
-carLoanMonths= Number(inptNumberofMonths.value)
+  let carLoanPrinciple = ""
+  let carLoanInterest = ""
+  let carLoanMonths = ""
 
-let carTotal = carLoanPayment (carLoanPrinciple, carLoanMonths, carLoanInterest)
-lblmessage.value =`A car loan for ${carLoanPrinciple} over ${carLoanMonths} months at ${carLoanInterest} interest would have a monthly payment of ${carTotal}`
+  carLoanPrinciple = Number(inptPrinciple.value)
+  carLoanInterest = (Number(inptMonthlyInterest.value)) / 100
+  console.log(carLoanInterest)
+  carLoanMonths = Number(inptNumberofMonths.value)
+
+  let carTotal = carLoanPayment(carLoanPrinciple, carLoanMonths, carLoanInterest)
+  lblmessage.value = `A car loan for $${carLoanPrinciple} over ${carLoanMonths} months at ${carLoanInterest} interest would have a monthly payment of $${carTotal}`
 }
 
 
+//Home Loan
 
-/*btnHomeLoan.onclick=function(){
+btnHomeLoan.onclick = function() {
 
-let homeLoanPrinciple = "" ;
-let homeLoanYears = "";
-let homeLoanInterest = "";
+  let homeLoanPrinciple = ""
+  let homeLoanYears = ""
+  let homeLoanInterest = ""
 
-homeLoanPrinciple = inptPrinciple.value
-homeLoanInterest= inptMonthlyInterest.value
-carLoanYears= inptNumberYears.value
+  homeLoanPrinciple = Number(inptPrinciple.value)
+  homeLoanInterest = (Number(inptMonthlyInterest.value))/100
+  homeLoanYears = Number(inptNumberYears.value)
 
-
-function homeLoanPayment(homeLoanPrincicple, homeLoanYears, homeLoanInterest) {
-let carPaymentFormula = (homeLoanPrinciple / homeLoanYears * 12) * ((homeInterestInterest / 100) + 1);
-return homePaymentFormula;
-};
-let homeTotal = homeLoanPayment (homeLoanPrinciple, homeLoanYears, homeLoanInterest);
-NSB.MsgBox(`A home loan for ${homeLoanPrinciple} over ${homeLoanYears} years at ${homeLoanInterest} would have a monthly payment of ${homeTotal}`)
-*/
+  let homeTotal = homeLoanPayment(homeLoanPrinciple, homeLoanYears, homeLoanInterest);
+  lblmessage.value = `A home loan for $${homeLoanPrinciple} over ${homeLoanYears} years at ${homeLoanInterest} percent interest would have a monthly payment of $${homeTotal}`
+}
